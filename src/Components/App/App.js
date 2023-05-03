@@ -63,7 +63,10 @@ import Spotify from '../../util/Spotify2';
   render() {
   return (
     <div>
-      <h1>Ja<span className="highlight">mmm</span>ing</h1>
+      <div className='header'>
+      <img className="icon" src="healthcare-skull-icon-5.png"/>
+      <h1>MEET THE <span className="highlight">CREATOR</span></h1>
+      </div>
       <div className="App">
         <SearchBar onSearch={this.search}/>
         <div className="App-playlist">

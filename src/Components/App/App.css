@@ -7,18 +7,36 @@ html,
 html {
   font-size: 18px;
 }
+.header {
+  display: flex;
+  background-color: #F2B80C;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  
+  width: 3rem;
+  height: 3.3rem;
+  right: 1rem;
+  margin-right: auto;
+  
+}
 
 h1 {
   padding: .77rem 0;
-  background-color: #010c3f;
+  background-color: #F2B80C;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 1.88rem;
   color: #fff;
+  margin-right: auto;
+  
+  
+  
 }
 
 h1 .highlight {
-  color: #6c41ec;
+  color: #010C3F;
 }
 
 h2 {
@@ -29,13 +47,14 @@ h2 {
 .App {
   height: 100%;
   padding: 0 17% 10% 17%;
-  background-image: url('./background_photo_desktop.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url('./background.jpg');
+  background-size:contain;
+  background-position:top;
+  background-repeat: repeat;
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
   color: #fff;
+  padding-top: 50px;
 }
 
 .App-playlist {

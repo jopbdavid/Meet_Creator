@@ -25,10 +25,12 @@ search() {
 
 render(){
   return(
-  <div className="SearchBar">
-    <input onChange={this.handleTermChange} placeholder="Enter A Song, Album, or Artist" />
-     <button className="SearchButton" onClick={this.search}>SEARCH</button>
-  </div>
+   <div className="container">
+    <div className="SearchBar">
+      <input onChange={this.handleTermChange} placeholder="Enter A Song, Album, or Artist" />
+       <button className="SearchButton" onClick={this.search}>SEARCH</button>
+    </div>
+  </div> 
 );
 }
 }
