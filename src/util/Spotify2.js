@@ -1,5 +1,5 @@
 const clientId = `99ebc69f257c47ccab05d605b5545928`;
-const redirectUri = "http://localhost:3000/"; //a redirect uri that matches value in the Spotify WEB API project page
+const redirectUri = "https://meet-creator.netlify.app/"; //a redirect uri that matches value in the Spotify WEB API project page
 let accessToken;
 
 // ("http://jamming-jb.surge.sh");
